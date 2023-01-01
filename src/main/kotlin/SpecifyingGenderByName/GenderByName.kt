@@ -6,6 +6,10 @@ import java.io.FileReader
 import java.nio.file.Files
 
 fun main() {
+    genderByName()
+}
+
+fun genderByName() {
     val list1OfStrings: MutableList<String> = ArrayList()
     val list2OfStrings: MutableList<String> = ArrayList()
 
@@ -42,10 +46,8 @@ fun main() {
     // storing the data in arraylist to array
     val array2 = list2OfStrings.toTypedArray()
 
-
     print("Enter a name: ")
     var input = readLine()
-
 
     for (i in array1) {
         if (input == i)
@@ -55,5 +57,4 @@ fun main() {
         if (input == i)
             println("$input is a male name")
     }
-
 }
