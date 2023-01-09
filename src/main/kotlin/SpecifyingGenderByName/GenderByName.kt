@@ -55,4 +55,6 @@ fun genderByName() {
         if (input == i)
             println("$input is a male name")
     }
+
+    println("Done")
 }
