@@ -18,6 +18,6 @@ The two text files contains the two lists for male names and female names.
 
 **3. open Project in intelliJIDEA**
 
-**4. Build Project**
+**4. Build Project**  
 
 **5. In case of an error when building project, update your gradle version, Build Tools download**
