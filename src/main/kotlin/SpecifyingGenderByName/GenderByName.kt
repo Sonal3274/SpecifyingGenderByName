@@ -13,11 +13,11 @@ fun genderByName() {
 
     // load data from file
     val bf1 = BufferedReader(
-        FileReader("/Users/sonaldhage/Advent-Of-Code-2022/src/main/kotlin/RecognizingGenderByName/femaleNames.txt")
+        FileReader("SpecifyingGenderByName/femaleNames.txt")
     )
 
     val bf2 = BufferedReader(
-        FileReader("/Users/sonaldhage/Advent-Of-Code-2022/src/main/kotlin/RecognizingGenderByName/maleNames.txt")
+        FileReader("SpecifyingGenderByName/maleNames.txt")
     )
     var line1 = bf1.readLine()
     var line2 = bf2.readLine()
