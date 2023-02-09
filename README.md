@@ -31,10 +31,11 @@ And then there is kotlin that contains main function and gender by name function
 
 
 ## Contributing
-* Pull requests are welcome. For major changes, please open an issue first
-* to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Feature to be added
+[] Tests
+[] Fix gradle
 
 
 
