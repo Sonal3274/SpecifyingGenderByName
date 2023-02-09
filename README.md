@@ -1,11 +1,13 @@
-# ticTacToe
+# Specifying Gender By Name
 This is the code to specifying gender by the username. 
 
 ## detailed description
 The two text files contains the two lists for male names and female names. 
+And then there is kotlin that contains main function and gender by name function.
 
 ## Technical
-* Kotlin 1.7.2
+* Kotlin 1.8
+  
 
 ## Running the project
 **1. Required to run project:**
