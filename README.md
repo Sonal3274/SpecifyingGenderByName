@@ -44,9 +44,7 @@ Here's the link: https://app.diagrams.net/#G15SoKK6nvVxTSvH2GFCo_UkgFtiUsv3mh
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Feature to be added
-- [ ] Add a feature to enter the name (if username doesn't already exist)
-- [ ] Add a new gender type
+- [x] Add a new gender type for transgender
+- [ ] Register a new user (if username doesn't already exist)
 - [ ] Fix Gradle
-- [ ] Add github actions
 - [ ] Tests
-
