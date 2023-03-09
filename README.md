@@ -38,12 +38,20 @@ And then there is kotlin that contains main function and gender by name function
 **5. In case of an error when building project, update your gradle version, Build Tools download**
 
 ## Architecture Diagram
-Here's the link: https://app.diagrams.net/#G1HVhPZjsVMtZWiQs63A_z1eQKi2-XtZds
-
+Here's the link: https://app.diagrams.net/#G15SoKK6nvVxTSvH2GFCo_UkgFtiUsv3mh
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Feature to be added
-- [ ] Tests
+- [ ] Add a feature to enter the name (if username doesn't already exist)
+- [ ] Add a new gender type
 - [ ] Fix Gradle
 - [ ] Add github actions
+- [ ] Tests

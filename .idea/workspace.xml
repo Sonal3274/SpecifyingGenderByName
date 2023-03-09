@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca40f4f8-084a-4a9f-a48b-063255fa2453" name="Changes" comment="setting up github actions">
+    <list default="true" id="ca40f4f8-084a-4a9f-a48b-063255fa2453" name="Changes" comment="updated README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -147,7 +147,7 @@
       <workItem from="1675938344272" duration="4904000" />
       <workItem from="1676012350092" duration="2615000" />
       <workItem from="1676295060055" duration="1204000" />
-      <workItem from="1678351684226" duration="661000" />
+      <workItem from="1678351684226" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned code and added ReadMe">
       <created>1672596070657</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676026520679</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated README.md">
+      <created>1678352504309</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678352504309</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="Cleaned code and added ReadMe" />
     <MESSAGE value="added file writing feature and new gender type" />
     <MESSAGE value="setting up github actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up github actions" />
+    <MESSAGE value="updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated README.md" />
   </component>
 </project>
