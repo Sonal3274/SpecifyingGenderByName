@@ -45,7 +45,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Feature to be added
 - [x] Add a new gender type for transgender
-- [ ] Allow user to enter their name
+- [x] Allow user to enter their name
+- [ ] Search the username in the text file
 - [ ] Register a new user (if username doesn't already exist)
 - [ ] Fix Gradle
 - [ ] Tests

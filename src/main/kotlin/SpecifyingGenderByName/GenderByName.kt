@@ -1,4 +1,7 @@
+import java.io.BufferedWriter
 import java.io.File
+import java.io.FileWriter
+import java.io.PrintWriter
 import java.util.Scanner
 
 fun main() {
@@ -34,6 +37,26 @@ fun main() {
         println("Hello $nameInput, You are already registered!!!")
     } else {
         println("Hello $nameInput, you are not registered.")
+        println("Kindly register your name:")
+
+        // Create a new File object with the file path and name
+        val file = File("src/main/kotlin/SpecifyingGenderByName/transNames.txt")
+        
+        // Open the file for writing using a PrintWriter object
+       // val writer = PrintWriter(file)
+        val writer = BufferedWriter(FileWriter(file, true))
+
+        // Write some Kotlin code to the file
+        val newUserName = scanner.nextLine()
+        writer.newLine()
+        writer.write(newUserName)
+
+        // Close the PrintWriter object to save the changes to the file
+        writer.close()
+
+        // Print a message to the console to confirm that the file was written successfully
+        println("Congratulations!!! You are successfully registered! : ${file.absolutePath}")
+
     }
 }
 
