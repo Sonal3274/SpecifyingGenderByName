@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca40f4f8-084a-4a9f-a48b-063255fa2453" name="Changes" comment="Updated code to search the name in the text files">
+    <list default="true" id="ca40f4f8-084a-4a9f-a48b-063255fa2453" name="Changes" comment="Updated code to register a new user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/GenderByName.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/GenderByName.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/femaleNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/femaleNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/maleNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/maleNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/transNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/transNames.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678622940168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated code to register a new user">
+      <created>1678645880313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678645880313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +203,7 @@
     <MESSAGE value="Cleaned code and added ReadMe" />
     <MESSAGE value="Made updates in README and in code" />
     <MESSAGE value="Updated code to search the name in the text files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated code to search the name in the text files" />
+    <MESSAGE value="Updated code to register a new user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code to register a new user" />
   </component>
 </project>
