@@ -18,8 +18,8 @@ fun main() {
     }
     val file = when (gender) {
         Gender.MALE -> println("It's a male name")
-        Gender.FEMALE -> File("src/main/kotlin/SpecifyingGenderByName/female.txt")
-        Gender.TRANSGENDER -> File("src/main/kotlin/SpecifyingGenderByName/trans.txt")
+        Gender.FEMALE -> println("It's a female name")
+        Gender.TRANSGENDER -> println("It's a transgender name")
     }
 
     println("Enter your name:")
