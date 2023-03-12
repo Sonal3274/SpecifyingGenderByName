@@ -7,7 +7,7 @@ fun main() {
     println("Enter your gender (Male/Female/Transgender):")
     val genderInput = scanner.nextLine()
 
-    var gender = when (genderInput.toLowerCase()) {
+    val gender = when (genderInput.toLowerCase()) {
         "male" -> Gender.MALE
         "female" -> Gender.FEMALE
         "transgender" -> Gender.TRANSGENDER
@@ -16,16 +16,25 @@ fun main() {
             return
         }
     }
-    val file = when (gender) {
-        Gender.MALE -> println("It's a male name")
-        Gender.FEMALE -> println("It's a female name")
-        Gender.TRANSGENDER -> println("It's a transgender name")
+
+    val fileName = when (gender) {
+        Gender.MALE -> "src/main/kotlin/SpecifyingGenderByName/maleNames.txt"
+        Gender.FEMALE -> "src/main/kotlin/SpecifyingGenderByName/femaleNames.txt"
+        Gender.TRANSGENDER -> "src/main/kotlin/SpecifyingGenderByName/transNames.txt"
     }
+
+    val nameList = mutableListOf<String>()
+    val file = File(fileName)
+    file.forEachLine { nameList.add(it) }
 
     println("Enter your name:")
     val nameInput = scanner.nextLine()
-    println("You entered $nameInput")
 
+    if (nameList.contains(nameInput)) {
+        println("Hello $nameInput, You are already registered!!!")
+    } else {
+        println("Hello $nameInput, you are not registered.")
+    }
 }
 
 enum class Gender { MALE, FEMALE, TRANSGENDER }

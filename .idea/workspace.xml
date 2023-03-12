@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca40f4f8-084a-4a9f-a48b-063255fa2453" name="Changes" comment="Cleaned code and added ReadMe">
+    <list default="true" id="ca40f4f8-084a-4a9f-a48b-063255fa2453" name="Changes" comment="Made updates in README and in code">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/female.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/transNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/GenderByName.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/GenderByName.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/female.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/femaleNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/femaleNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/male.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/male.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/maleNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/maleNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SpecifyingGenderByName/trans.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$USER_HOME$/SpecifyingGenderByName/Specifying Gender By Name">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -157,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678357903331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made updates in README and in code">
+      <created>1678620444408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678620444408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cleaned code and added ReadMe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned code and added ReadMe" />
+    <MESSAGE value="Made updates in README and in code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made updates in README and in code" />
   </component>
 </project>
